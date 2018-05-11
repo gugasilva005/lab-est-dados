@@ -1,4 +1,4 @@
-# IFPB - Python
+# IFPB - Laboratório Estruturas de Dados
 
 Instituto Federal de Educação, Ciência e Tecnologia da Paraíba - IFPB - *Campus* CG  / PB 
 
