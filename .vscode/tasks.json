@@ -4,7 +4,33 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "compilar+linkar+debug",
+            "label": "compilar & linkar hello.c > hello",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-Wall",
+                "-std=c99",
+                "setup/hello.c",
+                "-o",
+                "setup/hello",                
+            ],
+        },      
+        {
+            "label": "compilar & linkar modulos[.h .c] > funcaoutil",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-Wall",
+                "-std=c99",
+                "setup/modulo.h",
+                "setup/modulo.c",
+                "setup/main_modulo.c", 
+                "-o",
+                "setup/funcaoutil", 
+            ],
+        },
+        {
+            "label": "DEFAULT: compilar [-g] & linkar testar_debug.c > testar_debug",
             "type": "shell",
             "command": "gcc",
             "args": [
@@ -19,6 +45,15 @@
                 "kind": "build",
                 "isDefault": true
             }
-        }
+        },
+        {
+            "label": "rm *.o",
+            "type": "shell",
+            "command": "rm",
+            "args": [
+                "-rf",
+                "setup/*.o",
+            ],
+        },         
     ]
 }
