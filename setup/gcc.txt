@@ -29,10 +29,12 @@ $  ./funcaoutil
 
 # só compilação
 $  gcc  -Wall -c -std=c99  hello.c
-$  gcc  -Wall -c -std=c99  modulo.h modulo.c main_modulo.c
+# agora linkagem
+$  gcc  *.o -o hello
+$  ./hello
 
-#
-
-
-
-
+# só compilação
+$  gcc -Wall -c -std=c99 modulo.h modulo.c main_modulo.c 
+# agora linkagem
+$  gcc  *.o -o funcaoutil
+$  ./funcaoutil
