@@ -38,3 +38,12 @@ $  gcc -Wall -c -std=c99 modulo.h modulo.c main_modulo.c
 # agora linkagem
 $  gcc  *.o -o funcaoutil
 $  ./funcaoutil
+
+DEBUG:
+
+# Instale o gdb: apt install gdb
+$  gcc -Wall -std=c99 -g meu_programa.c// observe o "-g"
+
+Agora leia:
+http://www.lrc.ic.unicamp.br/~luciano/courses/mc202-2s2009/tutorial_gdb.txt
+https://ccrma.stanford.edu/~jos/stkintro/Useful_commands_gdb.html
