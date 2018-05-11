@@ -1,0 +1,38 @@
++--- comandos úteis no gcc: --+
+
+# compilação + linkagem:
+# -Wall: ativa os warnings do compilador 
+# saída será escrita em "a.out"
+# -std= informa que standard o gcc irá usar, e.g., c90, c99, c11
+# vide: https://gcc.gnu.org/onlinedocs/gcc/Standards.html#Standards
+# vide: https://gcc.gnu.org/onlinedocs/gcc/C-Dialect-Options.html
+$  gcc  -Wall -std=c99  hello.c
+$ ./a.out
+
+# compilação + linkagem:
+# -Wall: ativa os warnings do compilador 
+# -o: saída da compilação
+# se "-o" for omitido, saída será escrita em "a.out"
+$  gcc  -Wall -std=c99  hello.c  -o  hello
+$  ./hello
+
+# compilação + linkagem de múltiplos arquivos:
+$  gcc -Wall -std=c99 modulo.h modulo.c main_modulo.c
+$ ./a.out
+
+# compilação + linkagem de múltiplos arquivos:
+# observe que modulo.h pode não ser incluido na lista de
+# arquivos para o gcc, ja que a diretiva #include "modulo.h" 
+# informará ao compilador que o ".h" deve ser incluido automaticamente
+$  gcc -Wall -std=c99  main_modulo.c modulo.c -o funcaoutil
+$  ./funcaoutil
+
+# só compilação
+$  gcc  -Wall -c -std=c99  hello.c
+$  gcc  -Wall -c -std=c99  modulo.h modulo.c main_modulo.c
+
+#
+
+
+
+
