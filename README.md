@@ -6,6 +6,11 @@ Instituto Federal de Educação, Ciência e Tecnologia da Paraíba - IFPB - *Cam
 
 Neste repositório, encontram-se exemplos de código utilizados em sala de aula. Os códigos não devem ser usados como único material de referência para estudo. Há trechos de códigos incompletos, com erros e/ou outros problemas de implementação, os quais devem ser analisados pelo aluno como exercício de programação.
 
+## Material de Referência
+
+Os principais materiais de estudo usados na disciplina são  os livros:
+[Introdução a Estruturas de Dados: Com Técnicas de Programação em C](https://www.amazon.com.br/Introdução-Estruturas-Dados-Técnicas-Programação-ebook/dp/B01JMAC3PS) e [C Primer Plus](https://www.amazon.com/Primer-Plus-6th-Developers-Library/dp/0321928423/). Outras fontes de leitura serão indicadas pelo professor.
+
 ## Pré-requisitos
 
 - [GCC Compiler](http://gcc.gnu.org)
