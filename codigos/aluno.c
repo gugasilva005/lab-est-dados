@@ -1,16 +1,16 @@
 /*****************************************************************************
- * Instituto Federal de Educação Ciência e Tecnologia da Paraíba			 *
- * Campus Campina Grande													 *
- * Curso Superior em Engenharia da Computação								 *
- * Professor: Cesar Vasconcelos												 *
- * 																			 *
- * Copyright - Cesar Vasconcelos											 *
- * Este marerial foi elaborado apenas para ser utilizado pelos alunos da 	 *
- * disciplina Estruturas de Dados, do curso de Eng. da Computação do IFPB.	 *
- * 																			 *
- * Nenhuma parte deste material pode ser reprodizuda ou transmitida			 *
- * de qualquer modo ou por qualquer meio sem prévia autorização do 			 *
- * autor e sem lhe ser dado o devido crédito.								 *
+ * Instituto Federal de Educação Ciência e Tecnologia da Paraíba			 
+ * Campus Campina Grande													 
+ * Curso Superior em Engenharia da Computação								 
+ * Professor: Cesar Vasconcelos												 
+ * 																			 
+ * Copyright - Cesar Vasconcelos											 
+ * Este marerial foi elaborado apenas para ser utilizado pelos alunos da 	 
+ * disciplina Estruturas de Dados, do curso de Eng. da Computação do IFPB.	 
+ * 																			 
+ * Nenhuma parte deste material pode ser reprodizuda ou transmitida			 
+ * de qualquer modo ou por qualquer meio sem prévia autorização do 			 
+ * autor e sem lhe ser dado o devido crédito.								 
  * **************************************************************************/
 
 #include "aluno.h"
