@@ -8,7 +8,7 @@
  * Este marerial foi elaborado apenas para ser utilizado pelos alunos da 	 
  * disciplina Estruturas de Dados, do curso de Eng. da Computação do IFPB.	 
  * 																			 
- * Nenhuma parte deste material pode ser reprodizuda ou transmitida			 
+ * Nenhuma parte deste material pode ser reproduzida ou transmitida			 
  * de qualquer modo ou por qualquer meio sem prévia autorização do 			 
  * autor e sem lhe ser dado o devido crédito.								 
  * **************************************************************************/
