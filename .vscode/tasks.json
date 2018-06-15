@@ -47,6 +47,36 @@
             }
         },
         {
+            "label": "compilar [-g] & linkar listaseq.* > testar_listaseq",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-Wall",
+                "-std=c99",
+                "-g",
+                "codigos/listaseq.h",
+                "codigos/listaseq.c",
+                "codigos/main_listaseq.c", 
+                "-o",
+                "codigos/testar_listaseq",
+            ],
+        },
+        {
+            "label": "compilar [-g] & linkar listaenc.* > testar_listaenc",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-Wall",
+                "-std=c99",
+                "-g",
+                "codigos/listaenc.h",
+                "codigos/listaenc.c",
+                "codigos/main_listaenc.c", 
+                "-o",
+                "codigos/testar_listaenc",
+            ],
+        },                 
+        {
             "label": "rm *.o",
             "type": "shell",
             "command": "rm",
