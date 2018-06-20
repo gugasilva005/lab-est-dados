@@ -19,7 +19,7 @@
 
 typedef struct nolista {
 	int dado;              // campo que guarda a informação
-    struct nolista *prox;  // guarda o endere�o para o próximo nó da lista
+    struct nolista *prox;  // guarda o endereço para o próximo nó da lista
 }no;
 
 
@@ -31,7 +31,7 @@ typedef no* TListaEnc; // como um ponteiro para um nó da lista será chamado
 /* Criar uma lista encadeada vazia */
 void criarLista( TListaEnc *lista );
 
-/* Verificar se a lista est� vazia ou n�o */
+/* Verificar se a lista está vazia ou não */
 int listaVazia( TListaEnc lista );
 
 /* Verificar a quantidade de elementos na lista */
