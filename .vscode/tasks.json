@@ -75,7 +75,22 @@
                 "-o",
                 "codigos/testar_listaenc",
             ],
-        },                 
+        },
+        {
+            "label": "compilar [-g] & linkar listadupenc.* > testar_listadupenc",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-Wall",
+                "-std=c99",
+                "-g",
+                "codigos/listadupenc.h",
+                "codigos/listadupenc.c",
+                "codigos/main_listadupenc.c", 
+                "-o",
+                "codigos/testar_listadupenc",
+            ],
+        },                            
         {
             "label": "rm *.o",
             "type": "shell",
