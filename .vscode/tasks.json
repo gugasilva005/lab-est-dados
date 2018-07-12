@@ -105,7 +105,22 @@
                 "-o",
                 "codigos/testar_pilhaseq",
             ],
-        },                                      
+        },
+        {
+            "label": "compilar [-g] & linkar filaenccab.* > testar_filaenccab",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-Wall",
+                "-std=c99",
+                "-g",
+                "codigos/filaenccab.h",
+                "codigos/filaenccab.c",
+                "codigos/main_filaenccab.c", 
+                "-o",
+                "codigos/testar_filaenccab",
+            ],
+        },                                                 
         {
             "label": "rm *.o",
             "type": "shell",
