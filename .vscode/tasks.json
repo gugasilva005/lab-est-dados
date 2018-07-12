@@ -90,7 +90,22 @@
                 "-o",
                 "codigos/testar_listadupenc",
             ],
-        },                            
+        },
+        {
+            "label": "compilar [-g] & linkar pilhaseq.* > testar_pilhaseq",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-Wall",
+                "-std=c99",
+                "-g",
+                "codigos/pilhaseq.h",
+                "codigos/pilhaseq.c",
+                "codigos/main_pilhaseq.c", 
+                "-o",
+                "codigos/testar_pilhaseq",
+            ],
+        },                                      
         {
             "label": "rm *.o",
             "type": "shell",
