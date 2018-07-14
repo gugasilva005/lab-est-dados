@@ -135,7 +135,22 @@
                 "-o",
                 "codigos/testar_filaenccab",
             ],
-        },                                                 
+        },
+        {
+            "label": "compilar [-g] & linkar arvore.* > testar_arvore",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-Wall",
+                "-std=c99",
+                "-g",
+                "codigos/arvore.h",
+                "codigos/arvore.c",
+                "codigos/main_arvore.c", 
+                "-o",
+                "codigos/testar_arvore",
+            ],
+        },                                                           
         {
             "label": "rm *.o",
             "type": "shell",
