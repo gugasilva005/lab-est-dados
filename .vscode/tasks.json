@@ -107,6 +107,21 @@
             ],
         },
         {
+            "label": "compilar [-g] & linkar pilhaenc.* > testar_pilhaenc",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-Wall",
+                "-std=c99",
+                "-g",
+                "codigos/pilhaenc.h",
+                "codigos/pilhaenc.c",
+                "codigos/main_pilhaenc.c", 
+                "-o",
+                "codigos/testar_pilhaenc",
+            ],
+        },        
+        {
             "label": "compilar [-g] & linkar filaenccab.* > testar_filaenccab",
             "type": "shell",
             "command": "gcc",
