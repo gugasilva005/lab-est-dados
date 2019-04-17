@@ -137,6 +137,21 @@
             ],
         },
         {
+            "label": "compilar [-g] & linkar filaseqcirc.* > testar_filaseqcirc",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-Wall",
+                "-std=c99",
+                "-g",
+                "codigos/filaseqcirc.h",
+                "codigos/filaseqcirc.c",
+                "codigos/main_filaseqcirc.c", 
+                "-o",
+                "codigos/testar_filaseqcirc",
+            ],
+        },        
+        {
             "label": "compilar [-g] & linkar arvore.* > testar_arvore",
             "type": "shell",
             "command": "gcc",
