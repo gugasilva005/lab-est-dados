@@ -30,7 +30,7 @@ no* aloca();
 
 
 /* Inicializar uma árvore binária colocando-a num estado valido */
-void inicializar( TArvoreBin * arv ){ arv = NULL; }
+void inicializar( TArvoreBin * arv ){ *arv = NULL; }
 
 /* Verificar se uma árvore binária está ou não vazia
  * parâmetro: um ponteiro representando "a raiz" */
