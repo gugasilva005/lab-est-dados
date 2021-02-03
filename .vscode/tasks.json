@@ -40,6 +40,7 @@
                 "setup/testar_debug.c",
                 "-o",
                 "setup/testar_debug",
+                "-lm"
             ],
             "group": {
                 "kind": "build",
