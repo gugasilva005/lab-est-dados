@@ -30,6 +30,20 @@
             ],
         },
         {
+            "label": "compilar [-g] & linkar testar_ponteiros.c > testar_ponteiros",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-Wall",
+                //"-std=c99",
+                "-g",
+                "setup/testar_ponteiros.c",
+                "-o",
+                "setup/testar_ponteiros",
+                "-lm"
+            ],
+        },
+        {
             "label": "DEFAULT: compilar [-g] & linkar testar_debug.c > testar_debug",
             "type": "shell",
             "command": "gcc",
