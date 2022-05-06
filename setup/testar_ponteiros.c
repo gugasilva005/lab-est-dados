@@ -27,5 +27,12 @@ int main(void)
     int *pcodigos = &codigos[0];
     printf(">%d\n", *(pcodigos + 1)); // pcodigos[1]
 
+    int v[] = {12,13,14,15};
+    p = &v[0];
+    printf("p++=%p\n", p++);  // "incremente (salto de acordo com tipo)"
+    printf("*(p++)=%d\n", *(p++)); // conteúdo, depois "saltar"
+    printf("*p++=%d\n", *p++); // conteúdo, depois "saltar"
+    printf("*(p)+1=%d\n", *(p) + 1 ); // conteúdo somado com 1
+
     return 0;
 }
