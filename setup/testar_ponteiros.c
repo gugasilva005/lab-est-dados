@@ -20,9 +20,8 @@ int main(void)
     char *pnome = nome; // char* pnome = &nome[0] == a 
     printf(">%c\n", *(pnome + 2)); // pnome[2]
     while (*pnome) // leia-se o conteudo de quem pnome olha...
-        putchar(*pnome++);
+        printf("%c\n", *pnome++);
 
-    printf("\n"); // flush buffer
     int codigos[] = {22, 33};
     int *pcodigos = &codigos[0];
     printf(">%d\n", *(pcodigos + 1)); // pcodigos[1]
